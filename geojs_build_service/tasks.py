@@ -4,5 +4,5 @@ from .celery import app
 
 
 @app.task
-def add(x, y):
+def test(branch):
     return x + y
